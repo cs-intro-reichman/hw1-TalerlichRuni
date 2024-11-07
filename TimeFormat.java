@@ -13,16 +13,24 @@ public static void main(String[] args) {
     updateminutes = "0" + updateminutes; 
     }
     
-    if (hours >= 12)
+    if (hours > 12)
      {
         updateminutes = updateminutes + " PM"; 
         updatehour = hours-12;
     }
-     else 
-     {
-        updateminutes = updateminutes + " AM";
+
+    if(hours==0)
+    {
+    hours=hours+12;
+    updateminutes = updateminutes + " AM"; 
+    } 
+
+    if (hours<12)
+    {
+        updateminutes = updateminutes + " AM"; 
     }
-    
+
+
 System.out.println(updatehour +":"+ updateminutes);
 
 }
