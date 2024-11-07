@@ -22,10 +22,7 @@ public static void main(String[] args) {
      {
         updateminutes = updateminutes + " AM";
     }
-    if (hours==0 )
-    {
-    updatehour = updatehour +12;
-    }
+    
 System.out.println(updatehour +":"+ updateminutes);
 
 }

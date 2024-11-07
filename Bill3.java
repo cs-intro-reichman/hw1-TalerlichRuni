@@ -8,7 +8,7 @@ public class Bill3 {
         double Personalbill= Bill;
         Personalbill=Math.ceil( Personalbill/3);
 
-        System.out.println("Dear "+ name1 + ", " + name2 + ", and: " + name3 + " pay " + Personalbill + " shekels each ");
+        System.out.println("Dear "+ name3 + ", " + name2 + ", and " + name1 + ": pay " + Personalbill + " Shekels each ");
 
  
         }
