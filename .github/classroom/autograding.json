@@ -15,7 +15,7 @@
       "setup": "javac Bill3.java",
       "run": "java Bill3 Dan Moti Itay 300",
       "input": "",
-      "output": "Dear Itay, Moti, and Dan: pay 100.0 Shekels each",
+      "output": "Dear Itay, Moti, and Dan: pay 100.0 Shekels each"
       "comparison": "included",
       "timeout": 10,
       "points": 3
