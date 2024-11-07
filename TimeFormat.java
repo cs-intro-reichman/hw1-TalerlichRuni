@@ -19,6 +19,11 @@ public static void main(String[] args) {
         updatehour = hours-12;
     }
 
+    if (hours == 12)
+    {
+       updateminutes = updateminutes + " PM"; 
+   }
+   
     if(hours==0)
     {
     hours=hours+12;
