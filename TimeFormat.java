@@ -15,12 +15,12 @@ public static void main(String[] args) {
     
     if (hours >= 12)
      {
-        updateminutes = updateminutes + "pm"; 
+        updateminutes = updateminutes + " PM"; 
         updatehour = hours-12;
     }
      else 
      {
-        updateminutes = updateminutes + "am";
+        updateminutes = updateminutes + " AM";
     }
     if (hours==0 )
     {
